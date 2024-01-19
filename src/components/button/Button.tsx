@@ -1,10 +1,12 @@
-import React from 'react'
+import  { ReactNode } from 'react'
+import "./button.css"
+type Props = {
+  children:ReactNode
+}
 
-type Props = {}
-
-const Button = (props: Props) => {
+const Button = ({children}: Props) => {
   return (
-    <div>Button</div>
+    <button className='bg-red-500 p-15 text-green-400'>{children}</button>
   )
 }
 

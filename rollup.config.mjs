@@ -24,7 +24,17 @@ export default [
       resolve(),
       commonjs(),
       typescript({ tsconfig: './tsconfig.json', exclude: ['**/*.test.tsx', '**/*.test.ts', '**/*.stories.ts'] }),
-      postcss({ extensions: ['.css'], inject: true, extract: false }),
+      postcss({ 
+        config: {
+          path: "./postcss.config.js",
+        },
+        extensions: [".css"],
+        minimize: true,
+        inject: {
+          insertAt: "top",
+        },
+        modules:true
+    }),
     ],
   },
   {
