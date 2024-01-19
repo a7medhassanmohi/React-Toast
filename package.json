@@ -1,0 +1,12 @@
+{
+  "name": "@a7medhassanmohi/react-toast",
+  "version": "0.0.1",
+  "description": "react notification library",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
