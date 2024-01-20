@@ -27,9 +27,7 @@ export default [
 			resolve(),
 			commonjs(),
 			typescript({ tsconfig: "./tsconfig.json" }),
-			postcss({
-				plugins: [],
-			}),
+      postcss({ extensions: ['.css'], inject: true, extract: false }),
 			terser(),
 		],
 	},
