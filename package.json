@@ -1,8 +1,26 @@
 {
-  "name": "@a7medhassanmohi/react-toast",
+  "name": "@a7medhassan/react-toast",
+  "repository": "https://github.com/a7medhassanmohi/React-Toast",
   "private": false,
-  "version": "0.0.16",
+  "version": "0.0.17",
+  "homepage": "",
   "description": "react notification library",
+  "keywords": [
+    "a7medhassanmohi",
+    "notification",
+    "react-toastify",
+    "react-toast",
+    "react-notification",
+    "react-hot-toast",
+    "react",
+    "component",
+    "components",
+    "react-component",
+    "design",
+    "library",
+    "framework",
+    "frontend"
+  ],
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
@@ -17,9 +35,6 @@
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/a7medhassanmohi"
-  },
   "scripts": {
     "dev": "rollup -c --watch",
     "build": "rollup -c"
@@ -43,6 +58,7 @@
     "@storybook/testing-library": "^0.2.2",
     "@types/react": "^18.2.33",
     "autoprefixer": "^10.4.17",
+    "clsx": "^2.1.0",
     "postcss": "^8.4.33",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -50,6 +66,7 @@
     "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-preserve-directives": "^0.3.1",
     "storybook": "^7.5.1",
     "storybook-addon-deep-controls": "^0.3.0",
     "tailwindcss": "^3.4.1",
@@ -57,3 +74,5 @@
     "typescript": "^5.2.2"
   }
 }
+
+
