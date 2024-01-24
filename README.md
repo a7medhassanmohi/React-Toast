@@ -46,7 +46,7 @@ pnpm add @a7medhassan/react-toast
 ### warp you entire app with ToastProvider
 ```jsx
 import React from "react";
-import {ToastProvider} from "@a7medhassanmohi/react-toast"
+import {ToastProvider} from "@a7medhassan/react-toast"
 const App = () => (
 	<ToastProvider>
 		<UIComponent />
@@ -56,7 +56,7 @@ const App = () => (
 ### then in any component inside the wrapper you can use useReactToast hook
 ```jsx
 import React from "react";
-import { useReactToast } from '@a7medhassanmohi/react-toast'
+import { useReactToast } from '@a7medhassan/react-toast'
 const Components = () => (
   const {addToast}=useReactToast()
   function fireToast(){
