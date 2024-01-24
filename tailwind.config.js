@@ -28,7 +28,7 @@ module.exports = {
       colors:{
         info:"#3e98db",
         success:"#6abe10",
-        warning:"#f1c40f",
+        warning:"#d4ad10",
         error:"#e7513b",
       }
     },
