@@ -2,7 +2,7 @@
   "name": "@a7medhassan/react-toast",
   "repository": "https://github.com/a7medhassanmohi/React-Toast",
   "private": false,
-  "version": "0.0.17",
+  "version": "0.0.18",
   "homepage": "",
   "description": "react notification library",
   "keywords": [
