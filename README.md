@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" >
-    <img width="200" src="https://res.cloudinary.com/mohii/image/upload/v1706089362/ux5o12rhrrmsiahicaai.png" alt="@a7medhassan/react-toast">
+    <img  src="https://res.cloudinary.com/mohii/image/upload/v1706089362/ux5o12rhrrmsiahicaai.png" alt="@a7medhassan/react-toast">
   </a>
 </p>
 
