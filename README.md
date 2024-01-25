@@ -61,10 +61,10 @@ const Components = () => (
   const {addToast}=useReactToast()
   function fireToast(){
     addToast({
-    type: "success" | "info" | "warning" | "error";
-    message: "your message";
-    duration: 1000 //your duration;
-    position: "topLeft"//  | "topLeft"| "topCenter"| "topRight"| "bottomRight"| "bottomCenter"| "bottomLeft";;
+    type: "success" , // "success"| "info" | "warning" | "error"
+    message: "your message",
+    duration: 1000, //your duration
+    position: "topLeft",//  | "topLeft"| "topCenter"| "topRight"| "bottomRight"| "bottomCenter"| "bottomLeft"
     icon: true     //ReactNode | boolean; optional
     })
   }
