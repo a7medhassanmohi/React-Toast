@@ -2,7 +2,7 @@
   "name": "@a7medhassan/react-toast",
   "repository": "https://github.com/a7medhassanmohi/React-Toast",
   "private": false,
-  "version": "0.0.18",
+  "version": "0.0.20",
   "homepage": "",
   "description": "react notification library",
   "keywords": [
@@ -25,8 +25,8 @@
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
   "peerDependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": ">=16",
+    "react-dom": ">=16"
   },
   "external": [
     "react",
